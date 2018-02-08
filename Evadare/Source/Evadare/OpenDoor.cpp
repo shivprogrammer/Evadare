@@ -19,7 +19,14 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	// Find the owning Actor
+
+	// Create a rotator
+
+	// Set the door rotation
+
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos);
+
 	
 }
 
